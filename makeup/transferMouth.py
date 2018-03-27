@@ -10,7 +10,7 @@ from skimage.filters import sobel
 from drawing import *
 
 import FaceRendering
-import utils
+import utils2
 
 
 from pylab import *
