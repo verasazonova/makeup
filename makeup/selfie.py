@@ -24,6 +24,7 @@ for image_path in images:
     print(image_path)
     image_name = image_path[:-4]
     w = 300
+
     cameraImg = cv2.imread("../data/{}".format(image_path))
     h = int(w*cameraImg.shape[0]/cameraImg.shape[1])
     #image = cv2.resize(cameraImg, (w, h))
